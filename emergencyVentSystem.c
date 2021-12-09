@@ -42,7 +42,7 @@ void loop() {
   Serial.print("C");
   Serial.println();
 
-  if(ppm>10){
+  if(ppm>10){       //we took this as the dummy data
 
     servo.attach(servoPin);
     delay(1);
@@ -58,6 +58,7 @@ void loop() {
     noTone(buzzer);
     delay(1000);
 
+  //oled display
     display.setTextSize(2);
   display.setTextColor(WHITE);
   display.setCursor(18,43);
@@ -89,6 +90,4 @@ void loop() {
   display.clearDisplay();
   delay(1000);
   }
-
-
 }
