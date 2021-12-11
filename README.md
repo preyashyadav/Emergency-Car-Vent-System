@@ -1,1 +1,2 @@
-<h1> A repository to store codes of my micro project</h1>
+<h1> A repository to store codes of my microprocessor and interfacing
+ project</h1>
